@@ -1,0 +1,23 @@
+# Environment and Secrets
+.env
+service_account*.json
+*.pem
+credentials.json
+
+# Downloaded files & caches
+downloads/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Playwright & Browsers
+.playwright/
